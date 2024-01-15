@@ -1,0 +1,120 @@
+*{
+          padding:0 ;
+          margin: 0;
+          list-style: none;
+          text-decoration: none;
+          font-family: "Mulish", sans-serif;
+}
+
+/* Header style */
+
+header nav{
+          display: flex;
+          justify-content: space-between;
+          max-width: 1170px;
+          margin: 0 auto;
+          padding: 3.125rem 0;
+}
+
+.Logo{
+          display: flex;
+          align-items: center;
+          width: 100%;
+          gap: 15px;
+}
+
+.Logo h2{
+          color: #131318;
+          font-size: 2.25rem;
+          font-weight: 800;
+}
+
+.Logo h2 span{
+          color: #FF5400;
+          font-size: 2.25rem;
+          font-weight: 800;
+}
+
+.Home{
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: space-evenly;
+}
+
+.Home a{
+          color:#424247;
+          font-size: 1.125rem;
+          font-weight: 400;
+}
+
+.Home .home{
+          color: #FF5400;
+}
+
+/* Banner section Css */
+
+.banner{
+          text-align: center;
+          background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+          background-position: center;
+          background-size: cover;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 73.125rem;
+          height: 31.25rem;
+          margin: 0 auto;
+          border-radius: 16px;
+}
+
+.banner h1{
+          color: #FFF;
+          font-size: 64px;
+          font-weight: 800;
+          margin-bottom: 1.15rem;
+
+}
+
+.banner p{
+          color: #FFF;
+          font-size: 16px;
+          font-weight: 400;
+          margin-bottom: 1.5rem;
+}
+
+.b-div{
+          border-radius: 8px;
+          width: 50rem;
+          height: 5.25rem;
+          margin: 0 auto;
+          display: inline-flex;
+          gap: 1.5rem;
+          align-items: center;
+          justify-content: center;
+          background: rgba(255, 255, 255, 0.30);
+}
+
+.b-div input{
+          width: 174px;
+          height: 52px;
+          border: none;
+          border-radius: 8px;
+          background: #FFF;
+          color: rgba(19, 19, 24, 0.50);
+          text-align: center;
+          font-size: 16px;
+          font-weight: 400;
+}
+
+.b-div button{
+          width: 174px;
+          height: 52px;
+          border: none;
+          border-radius: 8px;
+          background: #FF5400;
+          color: #FFF;
+          text-align: center;
+          font-size: 16px;
+          font-weight: 700;
+}
