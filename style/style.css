@@ -23,13 +23,13 @@ header nav{
           gap: 15px;
 }
 
-.Logo h2{
+.Logo h3{
           color: #131318;
           font-size: 2.25rem;
           font-weight: 800;
 }
 
-.Logo h2 span{
+.Logo h3 span{
           color: #FF5400;
           font-size: 2.25rem;
           font-weight: 800;
@@ -107,7 +107,7 @@ header nav{
           font-weight: 400;
 }
 
-.b-div button{
+.p-btn{
           width: 174px;
           height: 52px;
           border: none;
@@ -117,4 +117,47 @@ header nav{
           text-align: center;
           font-size: 16px;
           font-weight: 700;
+}
+
+/* Main Style start */
+/* Primary Style */
+.primary-p{
+          color: rgba(19, 19, 24, 0.70);
+          font-size: 1rem;
+          font-weight: 400;
+}
+/* Popular Tours Style Start */
+
+.popular-tours{
+          display: flex;
+          max-width: 73.125rem;
+          margin: 0 auto;
+          margin-top: 6.25rem;
+}
+
+.tour-text{
+          width: 100%;
+          padding: 0 1rem;
+}
+
+.tour-text *{
+          margin-bottom: 1.5rem;
+}
+.tour-text h2{
+          color: #131318;
+          font-size: 2.5rem;
+          font-weight: 800;
+}
+
+.tour-text ul li{
+          color: rgba(19, 19, 24, 0.70);
+          font-size: 1rem;
+          font-weight: 400;
+          list-style: disc;
+}
+
+.tour-pic{
+          width: 100%;
+          display: flex;
+          justify-content: center;
 }
