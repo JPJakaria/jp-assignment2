@@ -137,6 +137,13 @@ main{
           margin-bottom: 1.5rem;
 }
 
+.pri-h2{
+          color: #131318;
+          margin-bottom: 1.5rem;
+          font-size: 2.5rem;
+          font-weight: 800;
+}
+
 .hr{
           background: rgba(19, 19, 24, 0.10);
           height: 1px;
@@ -157,11 +164,7 @@ main{
 .tour-text *{
           margin-bottom: 1.5rem;
 }
-.tour-text h2{
-          color: #131318;
-          font-size: 2.5rem;
-          font-weight: 800;
-}
+
 
 .tour-text ul li{
           color: rgba(19, 19, 24, 0.70);
@@ -183,6 +186,12 @@ main{
           margin-top: 6.25rem;
 }
 
+.destination > p{
+          max-width: 40.1875rem;
+          margin: 0 auto 3rem;
+          
+}
+
 .gallery{
           display: grid;
           gap: 1.5rem;
@@ -192,7 +201,10 @@ main{
           
           height: 18.75rem;
           border-radius: 1rem;
-          border: 1px solid antiquewhite;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
 }
 
 .st-row{
@@ -213,6 +225,12 @@ main{
           grid-template-columns: 29.625rem 42.0625rem;
 }
 
+.g-img h3{
+          color: #FFF;
+          font-size: 1.75rem;
+          font-weight: 800;                 
+}
+/* linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), Included in img, So i skip it   */
 .s1-g{
           background-image:  url(../Images/Rectangle\ 5.png);
           background-position: center;
@@ -224,29 +242,85 @@ main{
           background-size: cover;
 }
 .s3-g{
-          background-image: url(../Images/Rectangle\ 5.png);
+          background-image: url(../Images/Rectangle\ 6.png);
           background-position: center;
           background-size: cover;
 }
 .s4-g{
-          background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+          background-image: url(../Images/Rectangle\ 7.png);
           background-position: center;
           background-size: cover;
 }
 .s5-g{
-          background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+          background-image: url(../Images/Rectangle\ 9.png);
           background-position: center;
           background-size: cover;
 }
 .s6-g{
-          background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+          background-image:  url(../Images/Rectangle\ 11.png);
           background-position: center;
           background-size: cover;
 }
 .s7-g{
-          background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+          background-image: url(../Images/Rectangle\ 10.png);
           background-position: center;
           background-size: cover;
+}
+
+/* Why Choose Us Section Style*/
+
+.chose-us{
+          text-align: center;
+          margin-top: 6.25rem;
+}
+
+.hdb{
+          border: 2px solid rgb(128, 68, 26);
+          width: 35.8125rem;
+          height: 17.75rem;
+          padding: 2rem;
+          text-align: start;
+}
+
+.hdb img{
+          margin-bottom: 2rem;
+}
+
+.hdb h3{
+          color: #131318;
+          font-size: 1.5rem;
+          font-weight: 800;
+          margin-bottom: .5rem;
+}
+
+.service{
+          display: flex;
+          gap: 1.5rem;
+          margin-top: 3rem;
+}
+
+.best-price{
+          display: flex;
+          justify-content: center;
+          margin-top: 1.5rem;
+}
+
+.hotel{
+          border-radius: 16px;
+          border: 1px solid rgba(251, 181, 99, 0.20);
+          background: rgba(251, 181, 99, 0.05);
+}
+
+.world{
+          border-radius: 16px;
+          border: 1px solid rgba(41, 206, 246, 0.20);
+          background: rgba(41, 206, 246, 0.05);
+}
+
+.price{
+          border-radius: 16px;
+          border: 1px solid rgba(233, 68, 68, 0.20);
+          background: rgba(233, 68, 68, 0.05);
 }
 
 /* Newsletter section Style */
@@ -314,6 +388,7 @@ footer{
           max-width: 90rem;
           margin: 0 auto;
 }
+
 .f-section{
           text-align: center;
           background: rgba(19, 19, 24, 0.05);
