@@ -177,15 +177,76 @@ main{
 }
 
 /* Destination section Start */
+
 .destination{
           text-align: center;
           margin-top: 6.25rem;
 }
 
+.gallery{
+          display: grid;
+          gap: 1.5rem;
+}
+
 .g-img{
-          width: 35.815rem;
+          
           height: 18.75rem;
+          border-radius: 1rem;
           border: 1px solid antiquewhite;
+}
+
+.st-row{
+          display: grid;
+          gap: 1.5rem;
+          grid-template-columns: 35.815rem 35.815rem;
+}
+
+.nd-row{
+          display: grid;
+          gap: 1.5rem;
+          grid-template-columns: 23.375rem 29.625rem 17.125rem;
+}
+
+.rd-row{
+          display: grid;
+          gap: 1.5rem;
+          grid-template-columns: 29.625rem 42.0625rem;
+}
+
+.s1-g{
+          background-image:  url(../Images/Rectangle\ 5.png);
+          background-position: center;
+          background-size: cover;
+}
+.s2-g{
+          background-image: url(../Images/Rectangle\ 8.png);
+          background-position: center;
+          background-size: cover;
+}
+.s3-g{
+          background-image: url(../Images/Rectangle\ 5.png);
+          background-position: center;
+          background-size: cover;
+}
+.s4-g{
+          background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+          background-position: center;
+          background-size: cover;
+}
+.s5-g{
+          background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+          background-position: center;
+          background-size: cover;
+}
+.s6-g{
+          background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+          background-position: center;
+          background-size: cover;
+}
+.s7-g{
+          background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+          background-position: center;
+          background-size: cover;
 }
 
 /* Newsletter section Style */
