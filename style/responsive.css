@@ -44,6 +44,20 @@
            .destination{
                     text-align: center;
            }
+           .rotted{
+                    right: .5rem;
+                    bottom: 2.5rem;
+                    width: 214.023px;
+                    height: 79.268px;
+                    border-radius: 10.569px;
+                    background: #FF5400;
+           }
+           .rotted p{
+                    font-size: 15.854px;
+           }
+           .rotted h3{
+                    font-size: 21.138px;
+           }
 
            .st-row, .nd-row, .rd-row{
                     display: flex;
