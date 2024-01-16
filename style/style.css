@@ -9,7 +9,7 @@
 
 /* Primary Style */
 
-main, body{
+main,header{
           max-width: 73.125rem;
           margin: 0 auto;
 }
@@ -174,11 +174,11 @@ header nav{
           list-style: disc;
 }
 
-.tour-pic{
+/* .tour-pic{
           width: 100%;
           display: flex;
           justify-content: center;
-}
+} */
 
 /* Destination section Start */
 

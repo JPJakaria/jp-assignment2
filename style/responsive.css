@@ -1,6 +1,6 @@
 @media screen and (max-width:600px) {
-          body{
-                    padding: 0 1.25rem;
+          main,header{
+                    max-width: 335px;
           }
           .banner .b-div{
                     flex-direction: column;
@@ -37,5 +37,18 @@
            .st-row, .nd-row, .rd-row{
                     display: flex;
                     flex-direction: column;
+           }
+           .service{
+                    flex-direction: column;
+                    justify-content: center;
+           }
+           .service div{
+                    width: auto;
+           }
+           .popular-tours div{
+                    width: auto;
+           }
+           .tour-pic img{
+                    width:100%;
            }
 }
