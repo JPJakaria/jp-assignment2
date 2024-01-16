@@ -51,4 +51,25 @@
            .tour-pic img{
                     width:100%;
            }
+           .f-section{
+                    padding: 0 1.5rem;
+           }
+           .newsletter{
+                    flex-direction: column;
+                    width: auto;
+           }
+           .news-text{
+                    width: auto;
+           }
+           .news-img img{
+                    width:100%;
+           }
+           .news-input input{
+                    width: 288px;
+                    height: 52px;
+           }
+           .news-input button{
+                    width: 288px;
+                    height: 52px;
+           }
 }
